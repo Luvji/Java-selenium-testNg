@@ -9,7 +9,9 @@ mvn test
 
 ### To run with Suite, use - 
 mvn test -DsuiteXmlFile=<your/xml/suite/file/path>
+
 like -
+
 mvn test -DsuiteXmlFile=src/test/resources/suiteFile/debug2.xml
 
 
