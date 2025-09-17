@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="testComponents.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="RunOneMethod(failed)" verbose="0">
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="validLogin"/>
+          <include name="invalidLogin"/>
+          <include name="packup"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+      <class name="test.OrderTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="orderMultipleProductflow"/>
+          <include name="validCheckoutflow"/>
+          <include name="packup"/>
+        </methods>
+      </class> <!-- test.OrderTest -->
+    </classes>
+  </test> <!-- RunOneMethod(failed) -->
+</suite> <!-- Failed suite [SampleTestSuite] -->

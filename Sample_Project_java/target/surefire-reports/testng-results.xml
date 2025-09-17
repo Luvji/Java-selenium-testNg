@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-17T14:11:54 IST" name="SampleTestSuite" finished-at="2025-09-17T14:12:32 IST" duration-ms="37558">
+    <groups>
+    </groups>
+    <test started-at="2025-09-17T14:11:54 IST" name="RunOneMethod" finished-at="2025-09-17T14:12:32 IST" duration-ms="37558">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@4facf68f]" started-at="2025-09-17T14:11:54 IST" name="setup" finished-at="2025-09-17T14:11:58 IST" duration-ms="3375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLogin()[pri:0, instance:test.LoginTest@4facf68f]" started-at="2025-09-17T14:11:58 IST" name="invalidLogin" finished-at="2025-09-17T14:12:00 IST" duration-ms="2301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="packup()[pri:0, instance:test.LoginTest@4facf68f]" started-at="2025-09-17T14:12:00 IST" name="packup" finished-at="2025-09-17T14:12:01 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@4facf68f]" started-at="2025-09-17T14:12:01 IST" name="setup" finished-at="2025-09-17T14:12:04 IST" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin()[pri:0, instance:test.LoginTest@4facf68f]" started-at="2025-09-17T14:12:04 IST" name="validLogin" finished-at="2025-09-17T14:12:05 IST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="packup()[pri:0, instance:test.LoginTest@4facf68f]" started-at="2025-09-17T14:12:05 IST" name="packup" finished-at="2025-09-17T14:12:05 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.LoginTest@4facf68f]" started-at="2025-09-17T14:12:32 IST" name="teardown" finished-at="2025-09-17T14:12:32 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.OrderTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.OrderTest@2ef3eef9]" started-at="2025-09-17T14:12:05 IST" name="setup" finished-at="2025-09-17T14:12:09 IST" duration-ms="3137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderMultipleProductflow()[pri:0, instance:test.OrderTest@2ef3eef9]" started-at="2025-09-17T14:12:09 IST" name="orderMultipleProductflow" finished-at="2025-09-17T14:12:18 IST" duration-ms="9859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderMultipleProductflow -->
+        <test-method is-config="true" signature="packup()[pri:0, instance:test.OrderTest@2ef3eef9]" started-at="2025-09-17T14:12:18 IST" name="packup" finished-at="2025-09-17T14:12:19 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.OrderTest@2ef3eef9]" started-at="2025-09-17T14:12:19 IST" name="setup" finished-at="2025-09-17T14:12:22 IST" duration-ms="2987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validCheckoutflow()[pri:0, instance:test.OrderTest@2ef3eef9]" started-at="2025-09-17T14:12:22 IST" name="validCheckoutflow" finished-at="2025-09-17T14:12:31 IST" duration-ms="9253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCheckoutflow -->
+        <test-method is-config="true" signature="packup()[pri:0, instance:test.OrderTest@2ef3eef9]" started-at="2025-09-17T14:12:31 IST" name="packup" finished-at="2025-09-17T14:12:32 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packup -->
+      </class> <!-- test.OrderTest -->
+    </test> <!-- RunOneMethod -->
+  </suite> <!-- SampleTestSuite -->
+</testng-results>

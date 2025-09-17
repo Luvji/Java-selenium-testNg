@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SampleTestSuite">
+  <listeners>
+    <listener class-name="testComponents.TestListener"/>
+  </listeners>
+  <test name="RunOneMethod" enabled="true">
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="validLogin" />
+        </methods>
+      </class>
+      <!-- Uncomment the class below to run all methods in test.OrderTest -->
+      <!-- <class name="test.OrderTest"/> -->
+    </classes>
+  </test>
+</suite>
