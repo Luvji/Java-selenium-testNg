@@ -1,6 +1,6 @@
 # Basic commands
 
-## if change in Pom.xml file 
+### if change in Pom.xml file 
 use mvn clean install
 
 ### To run use-
